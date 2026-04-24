@@ -66,16 +66,15 @@ streamlit run app.py
 ### Step 10: Open http://localhost:8501
 
 ## 📁 Project Structure
-'''
+
 rag-chatbot/
-├── knowledge_base/      # Your documents (PDF, TXT)
-├── faiss_index/         # Auto-generated index
+├── knowledge_base/ # Your documents (PDF, TXT)
+├── faiss_index/ # Auto-generated index
 ├── backend/
-│   ├── index.py         # Build index
-│   ├── main.py          # API server
-│   └── app.py           # Chat UI
+│ ├── index.py # Build index
+│ ├── main.py # API server
+│ └── app.py # Chat UI
 ├── .env.example
 ├── requirements.txt
 └── README.md
-'''
 
