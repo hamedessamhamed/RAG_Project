@@ -33,13 +33,49 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull qwen2.5:3b
 ```
 ### Step 5: Add Documents
-#Put your PDF and TXT files in knowledge_base/ folder.
+Put your PDF and TXT files in knowledge_base/ folder.
 
 ### Step 6: Build Index
 ```bash
 cd backend
 python index.py
 ```
+after run this folder faiss_index is created
 
+### Step 7: Run Ollama
+
+```bash
+ollama serve
+```
+
+### Step 8: Run Backend
+
+```bash
+conda activate RAG
+cd backend
+uvicorn main:app --reload
+```
+
+### Step 9: Run Frontend
+
+```bash
+conda activate RAG
+cd backend
+streamlit run app.py
+```
+### Step 10: Open http://localhost:8501
+
+📁 Project Structure
+text
+rag-chatbot/
+├── knowledge_base/      # Your documents (PDF, TXT)
+├── faiss_index/         # Auto-generated index
+├── backend/
+│   ├── index.py         # Build index
+│   ├── main.py          # API server
+│   └── app.py           # Chat UI
+├── .env.example
+├── requirements.txt
+└── README.md
 
 
