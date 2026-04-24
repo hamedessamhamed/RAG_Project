@@ -2,7 +2,7 @@
 
 An intelligent chatbot that answers your questions by searching through your own documents. Built with Retrieval-Augmented Generation (RAG), it combines vector search with Large Language Models to provide accurate, context-aware answers from your PDF and TXT files.
 
-Supports **Arabic** and **English** with both local (Ollama) and cloud (Gemini) LLM options.
+Supports **Arabic** and **English** with local (Ollama) .
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-green)
@@ -16,7 +16,7 @@ Supports **Arabic** and **English** with both local (Ollama) and cloud (Gemini) 
 
 - 📄 Supports PDF and TXT documents
 - 🌍 Multilingual — Arabic, English, and 50+ languages
-- 🤖 Works with local Ollama or Google Gemini API
+- 🤖 Works with local Ollama 
 - 🔍 Fast vector search using FAISS
 - 💬 Beautiful Streamlit chat interface
 - ⚡ FastAPI backend
