@@ -12,6 +12,9 @@ Supports **Arabic** and **English** with local (Ollama) .
 
 ---
 
+![RAG Architecture](images/RAG_architecture.png)
+
+---
 ### ✨ Features
 
 - 📄 Supports PDF and TXT documents
