@@ -11,7 +11,9 @@ Supports **Arabic** and **English** with local (Ollama) .
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-teal)
 
 ---
+## 📌 RAG System Architecture
 
+**This diagram shows the RAG system architecture, illustrating how documents are retrieved and processed by a Large Language Model to generate accurate, context-aware responses.**
 ![RAG Architecture](images/RAG_architecture.png)
 
 ---
